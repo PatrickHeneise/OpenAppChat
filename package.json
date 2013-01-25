@@ -1,0 +1,27 @@
+{
+  "name": "OpenAppChat",
+  "version": "0.0.1-1",
+  "description": "Demo application with node.js, express.js, socket.io and HTML5 mobile boilerplate.",
+  "private": false,
+  "scripts": {
+    "start": "app.js"
+  },
+  "author": {
+    "name": "Patrick Heneise",
+    "url": "http://patrickheneise.com",
+    "twitter": "@PatrickHeneise"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickHeneise/OpenAppChat.git"
+  },
+  "dependencies": {
+    "express": "3.0.6",
+    "ejs": "0.8.3",
+    "socket.io": "0.9.13"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "subdomain": "OpenAppChat"
+}
