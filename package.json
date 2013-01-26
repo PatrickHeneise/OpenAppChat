@@ -1,6 +1,6 @@
 {
   "name": "OpenAppChat",
-  "version": "0.0.1-1",
+  "version": "0.0.1",
   "description": "Demo application with node.js, express.js, socket.io and HTML5 mobile boilerplate.",
   "private": false,
   "scripts": {

@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "name": "OpenChatApp",
+  "description": "Demo application with node.js, express.js, socket.io and HTML5 mobile boilerplate.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/mortar-16.png",
+    "48": "/img/icons/mortar-48.png",
+    "128": "/img/icons/mortar-128.png"
+  },
+  "developer": {
+    "name": "Patrick Heneise",
+    "url": "http://patrickheneise.com"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "es": {
+      "description": "Aplicación por demonstrar un chat con socket.io, node.js.",
+      "developer": {
+        "url": "http://patrickheneise.com"
+      }
+    }
+  },
+  "default_locale": "en"
+}
