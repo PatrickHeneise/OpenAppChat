@@ -1,0 +1,28 @@
+CACHE MANIFEST
+# ScSOHDvPitkH2V5PpBfg4e7IDiQ=
+
+CACHE:
+css/install-button.css
+css/app.css
+build.txt
+index.html
+manifest.webapp
+favicon.ico
+.htaccess
+js/lib/chatbox.js
+js/lib/require.js
+js/init.js
+js/app.js
+img/glyphicons-halflings-white.png
+img/glyphicons-halflings.png
+img/icons/mortar-48.png
+img/icons/mortar-128.png
+img/icons/mortar-16.png
+img/.gitignore
+img/firefoxos.png
+
+# catch-all for anything else
+NETWORK:
+*
+http://*
+https://*
