@@ -1,0 +1,17 @@
+
+css/install-button.css
+----------------
+css/install-button.css
+
+css/app.css
+----------------
+css/install-button.css
+css/app.css
+
+js/lib/../app.js
+----------------
+js/lib/zepto.js
+js/lib/receiptverifier.js
+js/lib/install.js
+js/lib/../install-button.js
+js/lib/../app.js

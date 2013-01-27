@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+  <head>
+    <meta charset="utf-8">
+
+    <title>OpenAppChat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- Write your application here -->
+    <div id="content">
+      <h1><img src="img/firefoxos.png" height="50" />Chat Demo</h1>
+      <button id="install-btn">Install</button>
+      <h2><span id="clients">0</span> mobile chatters here</h2>
+      <div id="chatbox">No content yet. ):</div>
+      <hr />
+      <form id="saysomething">
+          <input type="text" id="something" name="something" placeholder="Say something ..." />
+          <input type="submit" class="btn" value="Send it!">
+      </form>
+    </div>
+
+
+
+
+
+
+    
+    <!-- Using require.js, a module system for javascript, include the
+         js files. This loads "main.js", which in turn can load other
+         files, all handled by require.js:
+         http://requirejs.org/docs/api.html#jsfiles -->
+    <script type="text/javascript" src="http://openappchat.jit.su/socket.io/socket.io.js"></script>
+    <script type="text/javascript"
+            data-main="js/init.js"
+            src="js/lib/require.js"></script>
+  </body>
+</html>
